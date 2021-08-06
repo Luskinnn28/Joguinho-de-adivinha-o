@@ -4,7 +4,7 @@ print("*********************************")
 print("Bem vindo ao jogo de Adivinhação!")
 print("*********************************")
 
-numero_secreto = round(random.randrange(1,10))
+numero_secreto = round(random.randrange(1,5))
 
 total_de_tentativas = 3
 rodada = 1
@@ -14,7 +14,7 @@ while(rodada <= total_de_tentativas):
 
     print("Tentativa {} de {}".format(rodada, total_de_tentativas))
 
-    chute =int( input("Digite seu chute entre 1 e 10"))
+    chute =int( input("Digite seu chute entre 1 e 5"))
     print("Voce digitou", chute)
 
 
