@@ -4,9 +4,9 @@ print("*********************************")
 print("Bem vindo ao jogo de Adivinhação!")
 print("*********************************")
 
-numero_secreto = round(random.randrange(1,5))
+numero_secreto = round(random.randrange(1,7))
 
-total_de_tentativas = 3
+total_de_tentativas = 5
 rodada = 1
 
 
@@ -20,7 +20,7 @@ while(rodada <= total_de_tentativas):
 
 
 
-    if(chute < 1 or chute > 21):
+    if(chute < 1 or chute > 7):
         print("Leia o que se pede")
         continue
 
